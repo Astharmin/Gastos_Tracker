@@ -1,22 +1,23 @@
-# 💰 ExpenseTracker CLI - Gestor de Gastos Personales
+# 💰 ExpenseTracker - Gestor de Gastos Personal
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?logo=python&logoColor=white)
-![CLI](https://img.shields.io/badge/Interface-CLI-4EAA25?logo=terminal)
+![Tkinter](https://img.shields.io/badge/GUI-Tkinter-%23039BE5?logo=tkinter)
 ![JSON](https://img.shields.io/badge/Data-JSON-000000?logo=json)
+![Executable](https://img.shields.io/badge/Windows-Executable-0078D6?logo=windows)
 ![License](https://img.shields.io/badge/Licencia-MIT-green)
 
-> *"Gestor de gastos personal desde la terminal - simple, rápido y sin distracciones"*
+> *"Ahora con interfaz gráfica y ejecutable - Gestión de gastos fácil y visual"*
 
-## 🌟 Características
+## 🌟 Nuevas Características (GUI Edition)
 
-- ✅ **CRUD completo** (Crear, Leer, Actualizar, Eliminar gastos)
-- 📊 **Resumen mensual** de gastos
-- 📁 **Exportación a CSV** para análisis externos
-- 🏷️ **Categorización** de gastos
-- 💾 **Persistencia en JSON** (sin base de datos necesaria)
-- 🐍 **100% Python puro** - cero dependencias
+- 🖼️ **Interfaz gráfica moderna** con Tkinter
+- 🚀 **Ejecutable nativo** (no necesita Python instalado)
+- 📊 **Tabla visual** de gastos registrados
+- 🗑️ **Eliminación con selección** (sin recordar IDs)
+- 📅 **Filtrado por mes** integrado en la UI
+- 💾 **Exportación a CSV/JSON** desde botones
 
-## 🚀 Instalación y Uso
+## 🎯 Modos de Uso
 
 ```bash
 # Clonar y usar
@@ -38,5 +39,9 @@ python main.py delete --id 2
 python main.py update --id 3 --amount 15.75
 python main.py summary --month 11
 python main.py export
+
+# O ejecutar directamente el .exe
+ExpenseTracker.exe  # ¡Sin necesidad de Python!
 ```
+
 https://roadmap.sh/projects/expense-tracker
