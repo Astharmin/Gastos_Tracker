@@ -17,11 +17,9 @@
 - 📅 **Filtrado por mes** integrado en la UI
 - 💾 **Exportación a CSV/JSON** desde botones
 
-## 🎯 Modos de Uso
-
 ```bash
 # Clonar y usar
-git clone https://github.com/tuusuario/Gestos_Tracker.git
+git clone https://github.com/Astharmin/Gastos_Tracker.git
 
 cd Gastos_Tracker
 
@@ -39,9 +37,12 @@ python main.py delete --id 2
 python main.py update --id 3 --amount 15.75
 python main.py summary --month 11
 python main.py export
-
-# O ejecutar directamente el .exe
-ExpenseTracker.exe  # ¡Sin necesidad de Python!
 ```
 
+## ⚡ Links directos (Para los que no quieren complicarse)
+[➡️ **CLICK AQUÍ para descargar el .exe**](https://github.com/Astharmin/Gastos_Tracker/releases/download/v1.0.0/ExpenseTracker.exe)
+
+---
+
+## ❤️ DENME PUNTITOS EN MI PERFIL DE ROADMAP ❤️
 https://roadmap.sh/projects/expense-tracker
